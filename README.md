@@ -24,7 +24,7 @@ This is a simple chat application built with Node.js, Express, and Socket.IO.
 3. Start the server:
 
     ```bash
-    npm start
+    node server.js
     ```
 
 4. Open your browser and navigate to `http://localhost:3000` to access the local chat application for Remote app use http://64.23.160.112:3000.
