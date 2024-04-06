@@ -1,0 +1,39 @@
+{
+  "name": "itis-6177-week11-websockets_chat_with_socketio",
+  "version": "1.0.0",
+  "description": "WebSockets chat with SocketIO, running CHAT application in cloud and local",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakasamv-uncc/ITIS-6177-Week11-WebSockets_Chat_with_SocketIO.git"
+  },
+  "keywords": [
+    "Websocket"
+  ],
+  "author": "Prakasam Venkatachalam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakasamv-uncc/ITIS-6177-Week11-WebSockets_Chat_with_SocketIO/issues"
+  },
+  "homepage": "https://github.com/prakasamv-uncc/ITIS-6177-Week11-WebSockets_Chat_with_SocketIO#readme",
+  "dependencies": {
+    "@socket.io/cluster-adapter": "^0.2.2",
+    "cluster": "^0.7.7",
+    "express": "^4.19.2",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.5",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "url": "^0.11.3",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.4.0",
+    "uws": "^200.0.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.8",
+    "utf-8-validate": "^5.0.10"
+  }
+}
